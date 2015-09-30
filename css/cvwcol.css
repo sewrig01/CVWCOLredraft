@@ -1,0 +1,169 @@
+/* Main Type*/
+
+header{
+border-bottom:2px solid grey;
+background:white;
+width:100%;
+}
+img.logo{
+height: 60px;
+float:right;
+}
+img.car{
+height: 100px;
+position:center;
+}
+h1{
+margin:0;
+width:100%;
+height:100px;
+font-weight:bold;
+font-size:4em;
+vertical-align:top;
+font-family:garamond;
+text-align:center;
+
+}
+body{
+background: lightgrey;
+max-width:100%;}
+
+td,th {padding-right:5px;}
+
+.mix{
+display:table;
+clear:both;
+color:purple;
+	font-size:125%;
+	font-family:garamond;
+	font-weight:bold;
+	margin-left:10%;
+	font-weight:bold;
+	width:100%;
+	}
+	
+.prepinfo{
+	margin-left:4%;
+	color:purple;
+	font-size:1.5em;
+	padding:2px;
+	font-family:impact;
+	font-weight:normal;
+	width:46%;
+	margin:0;
+	margin-left:20px;
+	margin-top:20px;
+	display:inline-block;
+	vertical-align:top;
+}
+.photo{
+	padding:2px;
+	margin-right:4%;
+	width:46%;
+	display:inline-block;
+	height:300px;
+	background: radial-gradient(transparent, lightgrey 65%),transparent url('../img/test.jpg') no-repeat center;
+	border-radius:10%;
+}
+.photo img{
+		border-radius:50%;
+}
+.prepinfo table{background-color:lightsteelblue;
+border:1px dotted grey;
+margin-left:3%;}
+
+.mix table{
+margin-left:20%;
+margin-top:-15%;
+margin-right:20%;
+margin-bottom:2.5%;
+}
+main p {
+	float:clear;
+	display:block;
+	color:Blue;
+	Max-width:100%;
+	text-align:center;
+	margin:0;
+	padding-bottom:20px;
+	margin-top:5%;
+	background-image:linear-gradient(transparent 1%, white);}
+
+footer{
+color:steelblue;
+background-color:white;
+font-family:impact;
+border-top: 2px solid blue;
+background-image:linear-gradient(#fff,#000);}
+
+
+@media (max-width:480px) {
+
+h1{
+font-size:2em;
+}
+.photo{
+	padding:2px;
+	padding-left:20px;
+	margin-right:14%;
+	width:26%;
+	height:100px;
+	}
+.mix table{
+
+margin-top:5%;
+}
+.prepinfo{
+	font-size:1em;
+}
+.mix{
+	font-size:100%;
+	}
+}
+
+
+@media (min-width:481px) and (max-width:700px) {
+
+h1{
+font-size:3em;
+}
+.photo{
+	width:36%;
+	height:100px;
+
+}
+.mix table{
+margin-top:5%;
+}
+.prepinfo{
+
+	font-size:1.125em;
+
+}
+.mix{
+	font-size:100%;
+	
+	}
+}
+
+@media (min-width:701px) and (max-width:1000px) {
+
+h1{
+height:110px;
+font-size:3.25em;
+
+}
+.photo{
+	padding:2px;
+	width:36%;
+	height:100px;
+	
+}
+.mix table{
+margin-top:0;
+}
+.prepinfo{
+	font-size:1.25em;
+}
+
+}
