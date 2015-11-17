@@ -1,55 +1,80 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-	
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/cvwcol.css">
+			<meta charset="UTF-8">
 
-		<title>CVWCOL</title>
-	
+			<link rel="stylesheet" href="css/normalize.css">
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="css/cvwcol.css">
+			<title>Main - CVWCOL</title>
+
 	</head>
+	<!-- ++common header -->
 	<body>
-		<header>
-			<img class="logo" src="./content/ClassicVWlogo.gif" alt="vw Logo"/>
-			<a href="https://www.facebook.com/groups/ClassicVWClubLouisville/"><img id="facebook"src="./content/like-us-on-facebook-logo.jpg"></a> 
-			<h1 class="Siteheader">
-				Classic VW Club of Louisville
-			</h1>
-			 
-			<div class="links">
-	<ul class="flexcont">
-		<li class="flexitem"> <a href="VWindex.html">Home</a>  </li>
-		<li class="flexitem"><a href="Events.html">Events</a></li>
-		<li class="flexitem"><a href="Photos.html">Photos</a></li>
-		<li class="flexitem"> <a href="Sponsors.html">Links & Sponsors</a> </li>
-		<li class="flexitem"><a href="Vdubderby.html">V-Dub Derby</a></li>
-		<li class="flexitem"><a href="Store.html">CVWCL Store</a></li>
-	</ul>
-</div>		
-		</header>
-			<img class="car" src="./content/vwa.jpg" alt="CarPhoto"/>
-			<img class="car" src="./content/vwb.jpg" alt="CarPhoto"/>
-	
-<H2>WELCOME</H2>	
-<P>We are a group of Volkswagen enthusiasts based in Louisville, Kentucky.  We want to have fun with our cars and connect with other VW fans and owners.  We plan to have VW events, gathering,  and cruises  throughout the year.  We look forward to meeting you and discussing all things VW. Be sure to visit our our Facebook page.</P>
-<h2>Meetings</h2>
-<p>We meet on the first Tuesday of the month at 7PM at different places around the Louisville and Southern Indiana area..   Bring your friends, family or whomever as we meet for dinner and/or dessert and discuss future events, shows, cruises and anything else that may be on your mind.  Also, make sure to bring your VW if possible, if not, your normal daily driver will do.  In the Calendar on the Events tab will be the location of each month's meeting.  See everyone the first Tuesday of the month.</p>
-<h2>Club Apparel</h2>	
-<p>As a club we have started selling T-Shirts, Crew Neck Sweatshirts, and Hoodies.   If you wish to order one or more of these shirts please follow the link listed below.  We will be ordering the shirts on February, 26, 2014 and they will be in by March 22 for delivery at Water by the Bridge.  Shipping for the T-shirts is $5 and for the Sweatshirts/Hoodies is $10 or you can pick them up at any club event throughout the year. 
-T-Shirts (S-XXXL) - $15
-Crew Neck Sweatshirts (S-XXXL) - $20
-Hoodies (S-XXXL) - $25
+		<div class="container">
+			<div class="container row">
+				<header>
+					<h1 class="Siteheader col-xs-8">
+						Classic VW Club of Louisville
+					</h1>
+					<a href="https://www.facebook.com/groups/ClassicVWClubLouisville/"><img class="img-responsive col-xs-2" id="facebook"src="./content/like-us-on-facebook-logo2.jpg"></a>
+					<img class="logo img-responsive col-xs-2" src="./content/ClassicVWlogo.gif" alt="vw Logo"/>
+				</header>
+			</div>
 
-If you would like to order a shirt go to the CVWCL Store</p>
-<h2>Membership</h2>
-<p>Membership in this club has many benefits and it is FREE to everyone!!!  We plan to have fun  with our VW's and hang out with, help and meet others  that have a passion for VW's. You are not required to come to a certain amount of meetings or events, although, we would love for you to come and have fun at as many events as possible.    You don't need to own a VW, just have an interest in these neat cars.   You can have any type of VW or VW-based vehicle, watercooled, aircooled, buggies, rails, kits, rods, etc...
+			<div class="links container">
+				<div class="btn-group btn.group-vertical">
+						<a class="btn btn-primary " href="VWindex.html">Home</a>
+						<a class="btn btn-info " href="Events.html">Events</a>
+						<a class="btn btn-info " href="Photos.html">Photos</a>
+						<a class="btn btn-info " href="Sponsors.html">Links & Sponsors</a>
+						<a class="btn btn-info " href="Vdubderby.html">V-Dub Derby</a>
+						<a class="btn btn-info " href="https://squareup.com/market/classicvwclublouisville">CVWCL Store</a>
+				</div>
+			</div>
 
-We will have several cruises, events and one Club show throughout the year.  Our club is a FREE to join.  We are able to function from the sales of apparel and some proceeds from the annual show (V-Dub Derby).  If you are interested in joining the club and staying updated on club events, you can send an email to ClassicVWClubLouisville@gmail.com to get on the email list.  We look forward to hearing from you or seeing  you out at one of our club events.</p>
+<!-- ++end commom header/nav -->
+ 			<div class="row">
+				<img class="car col-sm-6 hidden-xs" src="./content/vwa.jpg" alt="CarPhoto"/>
+				<img class="car col-sm-6 hidden-xs" src="./content/vwb.jpg" alt="CarPhoto"/>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<H2>WELCOME</H2>
 
-	<footer>
-		<p>The Classic Volkswagen Club of Louisville is not in any way affiliated with Volkswagen of America, Inc. or Volkswagen A.G. The Classic Volkswagen Club of Louisville exists solely for its members to persue interests regarding products manufactured by Volkswagen, Inc. and VolkswagenA.G. All trademarks and service marks related to Volkswagen are property of Volkswagen. It is not the intent of the Classic Volkswagen Club of Louisville to infringe upon these protected entities.</p>
-	</footer>
-	</div>
+					<P>We are a group of Volkswagen enthusiasts based in Louisville, Kentucky.  We want to have fun with our cars and connect with other VW fans and owners.  We plan to have VW events, gathering,  and cruises  throughout the year.  We look forward to meeting you and discussing all things VW. Be sure to visit our our Facebook page.</P>
+				</div>
+				<div class="col-sm-4">
+					<h2>
+						Meetings
+					</h2>
+					<p>
+						We meet on the first Tuesday of the month at 7PM at different places around the Louisville and Southern Indiana area..   Bring your friends, family or whomever as we meet for dinner and/or dessert and discuss future events, shows, cruises and anything else that may be on your mind.  Also, make sure to bring your VW if possible, if not, your normal daily driver will do.  In the Calendar on the Events tab will be the location of each month's meeting.  See everyone the first Tuesday of the month.
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<h2>
+						Club Apparel
+					</h2>
+					<p>
+						As a club we have started selling T-Shirts, Crew Neck Sweatshirts, and Hoodies.   If you wish to order one or more of these shirts please follow the link listed below.  We will be ordering the shirts on February, 26, 2014 and they will be in by March 22 for delivery at Water by the Bridge.  Shipping for the T-shirts is $5 and for the Sweatshirts/Hoodies is $10 or you can pick them up at any club event throughout the year. 
+						T-Shirts (S-XXXL) - $15
+						Crew Neck Sweatshirts (S-XXXL) - $20
+						Hoodies (S-XXXL) - $25
+						If you would like to order a shirt go to the CVWCL Store
+					</p>
+				</div>
+				<div class="container">
+					<h2>Membership</h2>
+					<p>Membership in this club has many benefits and it is FREE to everyone!!!  We plan to have fun  with our VW's and hang out with, help and meet others  that have a passion for VW's. You are not required to come to a certain amount of meetings or events, although, we would love for you to come and have fun at as many events as possible.    You don't need to own a VW, just have an interest in these neat cars.   You can have any type of VW or VW-based vehicle, watercooled, aircooled, buggies, rails, kits, rods, etc...
+					We will have several cruises, events and one Club show throughout the year.  Our club is a FREE to join.  We are able to function from the sales of apparel and some proceeds from the annual show (V-Dub Derby).  If you are interested in joining the club and staying updated on club events, you can send an email to ClassicVWClubLouisville@gmail.com to get on the email list.  We look forward to hearing from you or seeing  you out at one of our club events.</p>
+				</div>
+			</div>
+			<footer>
+				<p>
+					The Classic Volkswagen Club of Louisville is not in any way affiliated with Volkswagen of America, Inc. or Volkswagen A.G. The Classic Volkswagen Club of Louisville exists solely for its members to persue interests regarding products manufactured by Volkswagen, Inc. and VolkswagenA.G. All trademarks and service marks related to Volkswagen are property of Volkswagen. It is not the intent of the Classic Volkswagen Club of Louisville to infringe upon these protected entities.
+				</p>
+			</footer>
+		</div>
 	</body>
 </html>

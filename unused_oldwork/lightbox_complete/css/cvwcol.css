@@ -1,0 +1,658 @@
+/*
+
+*{
+font-family:"arial";
+max-width:100%;}
+body{
+}
+
+h1{
+font-weight:bold;
+font-size:3.5em;
+font-family:"arial";
+color:#435b76;
+}
+.container-fluid{
+background:white;
+}
+
+img.logo{
+height: 106px;
+width:130px;
+margin-top:10px;
+margin-bottom:5px;
+}
+img#facebook{
+height:40px;
+width:120px;
+margin-top:30px;
+}
+
+img.car{
+
+border-radius:15%;
+overflow:hidden;
+}
+@media (max-width:300px),
+
+ {
+h1{
+font-size:1.25em;
+color:gray;
+}
+img.logo{
+height: 50px;
+width:70px;
+margin-top:5px;
+margin-bottom:10px;
+}
+img#facebook{
+height:20px;
+width:60px;
+margin-top:20px;
+}
+img.car{
+
+display:none;
+}
+}
+@media (min-width:301px) and (max-width:380px),
+
+ {
+h1{
+font-size:2em;
+}
+img.logo{
+height: 73px;
+width:90px;
+margin-top:10px;
+margin-bottom:5px;
+}
+img#facebook{
+height:30px;
+width:90px;
+margin-top:30px;
+}
+img.car{
+
+display:none;
+}
+}
+@media (min-width:381px) and (max-width:768px),
+
+ {
+h1{
+font-size:2.25em;
+color:red;
+}
+img.logo{
+height: 73px;
+width:90px;
+margin-top:10px;
+margin-bottom:5px;
+
+
+}
+img#facebook{
+height:30px;
+width:90px;
+margin-top:30px;
+}
+img.car{
+width:40%;
+border-radius:15%;
+overflow:hidden;
+}
+}
+/*
+p{
+margin:20px;}
+h3{
+margin:20px;
+color:#435b76;
+font-weight:bold;
+font-size:1.5em;
+}
+@media (max-width:480px),
+
+ {
+
+header{
+border-bottom:2px solid grey;
+background-color:white;
+width:100%;
+max-width:100%;
+}
+img.logo{
+height: 60px;
+float:right;
+margin-right:20px;
+margin-top:25px;
+
+}
+img#facebook{
+float:right;
+margin-right:7.5px;
+margin-top:0;
+height:22px;
+width=:60px;
+border-radius: 0px;
+border-width: 0;
+padding-top:45px;
+}
+img.car{
+
+float:left;
+border-radius:15%;
+overflow:hidden;
+width:100%;
+height:100%;
+max-width:40%;
+margin:10px;
+
+}
+
+footer img {
+width:150px;
+    height:150px;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+
+.links li{
+background-color:white;
+list-style:none;
+
+}
+.links li a{
+display:block;
+height:30px;
+width:92%;
+margin:0;
+margin-bottom:10px;
+text-align:center;
+padding:5px;
+padding-right:0px;
+text-decoration:none;
+font-size:1.5em;
+border-radius: 11px 11px 11px 11px;
+-moz-border-radius: 11px 11px 11px 11px;
+-webkit-border-radius: 11px 11px 11px 11px;
+border: 0px solid #000000;
+background:lightblue;
+}
+
+h1{
+margin:0;
+margin-bottom:10px;
+
+max-width:90%;
+height:50px;
+font-weight:bold;
+font-size:1.5em;
+vertical-align:top;
+font-family:"arial";
+color:#435b76;
+text-align:center;
+padding:5%;
+
+}
+h2{
+clear:both;
+margin-left:5%;
+Margin-top:10%;
+text-align:center;}
+body{
+background: lightgrey;
+max-width:100%;
+margin:5%;}
+
+
+
+footer{
+color:steelblue;
+background-color:white;
+font-family:impact;
+border-top: 2px solid blue;
+background-image:linear-gradient(#002,#000);
+font-size:.5em;
+}
+}
+@media (min-width:481px) and (max-width:670px) {
+
+header{
+border-bottom:2px solid grey;
+background-color:white;
+width:100%;
+max-width:100%;
+height:90px;
+
+}
+h1{
+margin-top:10px;
+margin-bottom:10px;
+max-width:100%;
+height:30px;
+font-weight:bold;
+font-size:1.75em;
+vertical-align:top;
+font-family:"arial";
+color:#435b76;
+text-align:center;
+padding-top:10px;
+padding-bottom:35px;
+
+}
+h2{
+clear:both;
+margin-left:5%;
+Margin-top:10%;
+text-align:center;}
+body{
+background: lightgrey;
+max-width:100%;
+margin:0;}
+img.logo{
+height: 70px;
+float:right;
+margin-right:30px;
+margin-top:10px;
+
+}
+img#facebook{
+float:right;
+margin-right:15px;
+margin-top:10px;
+height:22px;
+width:60px;
+border-radius: 0px;
+border-width: 0;
+padding-top:25px;
+}
+img.car{
+
+float:left;
+border-radius:15%;
+overflow:hidden;
+width:100%;
+height:100%;
+max-width:40%;
+margin:10px;
+
+}
+.links{
+margin-top:-20px;
+width:80%;
+}
+.links li{
+list-style:none;
+float:left;
+padding-top:0px;
+margin-right:10px;
+
+}
+.links li a{
+text-decoration:none;
+font-size:.55em;
+background:white;
+font-weight:bold;
+}
+footer{
+color:steelblue;
+background-color:white;
+font-family:impact;
+border-top: 2px solid blue;
+background-image:linear-gradient(#002,#000);
+font-size:.5em;
+}
+}
+@media (min-width:590px) and (max-width:670px) {
+h1{
+
+padding-top:20px;
+padding-bottom:20px;
+font-size:1.75em;
+
+}
+img#facebook{
+float:right;
+margin-right:15px;
+margin-top:10px;
+height:20px;
+width:58px;
+border-radius: 0px;
+border-width: 0;
+padding-top:25px;
+}
+}
+@media (min-width:671px) and (max-width:800px) {
+
+header{
+border-bottom:2px solid grey;
+background-color:white;
+width:100%;
+max-width:100%;
+height:90px;
+
+}
+h1{
+margin-top:10px;
+margin-bottom:10px;
+max-width:100%;
+height:30px;
+font-weight:bold;
+font-size:2em;
+vertical-align:top;
+font-family:"arial";
+color:#435b76;
+text-align:center;
+padding-bottom:20px;
+padding-top:20px;
+
+}
+h2{
+clear:both;
+margin-left:5%;
+Margin-top:10%;
+text-align:center;}
+body{
+background: lightgrey;
+max-width:100%;
+margin:0;}
+img.logo{
+height: 70px;
+float:right;
+margin-right:40px;
+margin-top:10px;
+
+}
+img#facebook{
+float:right;
+margin-right:15px;
+margin-top:7.5px;
+height:30px;
+width:82px;
+border-radius: 0px;
+border-width: 0;
+padding-top:25px;
+}
+img.car{
+
+float:left;
+border-radius:15%;
+overflow:hidden;
+width:100%;
+height:100%;
+max-width:40%;
+margin:10px;
+
+}
+.links{
+background-color:red;
+margin-top:-20px;
+width:80%;
+}
+.links li{
+list-style:none;
+float:left;
+padding-top:0px;
+margin-right:10px;
+
+}
+.links li a{
+text-decoration:none;
+font-size:.75em;
+background:white;
+font-weight:bold;
+}
+
+}
+
+@media (min-width:801px) and (max-width:1000px)  {
+
+header{
+border-bottom:2px solid grey;
+background-color:white;
+width:100%;
+max-width:100%;
+height:90px;
+
+}
+h1{
+margin-top:10px;
+padding-top:20px;
+max-width:100%;
+height:40px;
+font-weight:bold;
+font-size:2.5em;
+vertical-align:top;
+font-family:"arial";
+color:#435b76;
+text-align:center;
+padding-bottom:45px;
+
+
+}
+h2{
+clear:both;
+margin-left:5%;
+Margin-top:10%;
+text-align:center;}
+body{
+background: lightgrey;
+max-width:100%;
+margin:0;}
+img.logo{
+height: 80px;
+float:right;
+margin-right:40px;
+margin-top:10px;
+
+}
+img#facebook{
+float:right;
+margin-right:15px;
+margin-top:10px;
+height:30px;
+border-radius: 0px;
+border-width: 0;
+padding-top:25px;
+}
+img.car{
+
+float:left;
+border-radius:15%;
+overflow:hidden;
+width:100%;
+height:100%;
+max-width:40%;
+margin:10px;
+
+}
+.links{
+background-color:red;
+margin-top:-60px;
+width:80%;
+}
+.links li{
+background-color:blue;
+list-style:none;
+float:left;
+padding-top:0px;
+margin-right:10px;
+
+}
+.links li a{
+text-decoration:none;
+font-size:1em;
+background:white;
+font-weight:bold;
+}
+/*
+.links{
+background-color:white;
+margin-top:-50px;
+}
+.links li{
+background-color:white;
+list-style:none;
+float:left;
+margin-top:-20px;
+padding-top:0px;
+margin-right:10px;
+}
+.links li a{
+
+text-decoration:none;
+margin:0;
+padding: 5px;
+font-size:1.1em;
+border: 0px solid #000000;
+background:white;
+}
+
+footer{
+color:steelblue;
+background-color:white;
+font-family:impact;
+border-top: 2px solid blue;
+background-image:linear-gradient(#002,#000);
+font-size:.5em;
+}
+}
+@media only screen and (min-width:1001px)  {
+
+header{
+border-bottom:2px solid grey;
+background-color:white;
+width:100%;
+max-width:100%;
+height:90px;
+
+}
+h1{
+margin-top:10px;
+padding-top:20px;
+
+max-width:100%;
+height:40px;
+font-weight:bold;
+font-size:2.5em;
+vertical-align:top;
+font-family:"arial";
+color:#435b76;
+text-align:center;
+padding-bottom:45px;
+
+}
+h2{
+clear:both;
+margin-left:5%;
+Margin-top:10%;
+text-align:center;}
+body{
+background: lightgrey;
+max-width:100%;
+margin:0;}
+img.logo{
+height: 80px;
+float:right;
+margin-right:40px;
+margin-top:10px;
+
+}
+img#facebook{
+float:right;
+margin-right:25px;
+margin-top:10px;
+height:30px;
+border-radius: 0px;
+border-width: 0;
+padding-top:25px;
+}
+img.car{
+
+float:left;
+border-radius:15%;
+overflow:hidden;
+width:100%;
+height:100%;
+max-width:40%;
+margin:10px;
+
+}
+.links{
+background-color:red;
+margin-top:-60px;
+width:80%;
+}
+.links li{
+
+list-style:none;
+float:left;
+padding-top:0px;
+margin-right:10px;
+
+}
+.links li a{
+text-decoration:none;
+font-size:1em;
+background:white;
+font-weight:bold;
+}
+/*
+.links{
+background-color:white;
+margin-top:-50px;
+}
+.links li{
+background-color:white;
+list-style:none;
+float:left;
+margin-top:-20px;
+padding-top:0px;
+margin-right:10px;
+}
+.links li a{
+
+text-decoration:none;
+margin:0;
+padding: 5px;
+font-size:1.1em;
+border: 0px solid #000000;
+background:white;
+}
+*/
+footer{
+color:steelblue;
+background-color:white;
+font-family:impact;
+border-top: 2px solid blue;
+background-image:linear-gradient(#002,#000);
+font-size:.75em;
+margin-top:10px;
+}
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+}
