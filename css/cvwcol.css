@@ -6,7 +6,10 @@ h1{
   max-width:100%;
   font-weight:bold;
   }
-
+h5{
+  color:#3D68AD;
+  font-size:1.25em;
+}
 *{
   font-family:"arial";
   max-width:100%;
@@ -50,7 +53,7 @@ h1{
 
 .events li{
   color:black;
-  padding-top:5px;
+  padding-top:15px;
   list-style:none;
   font-size:.75em;
 }
