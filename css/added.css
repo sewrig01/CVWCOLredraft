@@ -15,3 +15,6 @@
   color:darkblue;
     font-weight:bold;
 }
+#imageGallery li{
+    list-style:none;
+}
