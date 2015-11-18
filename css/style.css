@@ -43,10 +43,10 @@ a {
 }
 
 #overlay img {
- margin-top: 10%;
+ margin-top: 11%;
  max-width:100%;
   height:auto;
-	max-height:500px;
+	max-height:450px;
 	/* center image near the top of the page*/
    display:block;
   text-align:center;
@@ -54,7 +54,7 @@ a {
   top: 50%;
   left: 50%;
 	  transform: translate(-50%, -70%);
-	padding-top:30px;
+	padding-top:20px;
 
 }
 
@@ -62,7 +62,7 @@ a {
  color:white;
  font-family:arial;
  font-weight:bold;
- padding-top:20px;
+ padding-top:10px;
  position:fixed;
  top:0%;
  left:40%;
@@ -79,7 +79,7 @@ a {
 @media (min-width:701px) and (max-width:1100px), {
 
 	#overlay img {
-		max-height:450px;
+		max-height:420px;
 	}
 
 }
