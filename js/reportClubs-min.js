@@ -1,0 +1,1 @@
+var messageClubs="",club;function print(a){document.getElementById("outputClubs").innerHTML=messageClubs}for(var i=0;i<clubs.length;i+=1)club=clubs[i],messageClubs+="<h2>"+club.Name+"</h2>",messageClubs+="<p>"+club.CityStateZip+"</p>",messageClubs+='<a href=" http://'+club.Web+'">'+club.Web+"</a>";print(messageClubs);

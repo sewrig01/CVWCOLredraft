@@ -13,7 +13,7 @@ var shopParts = [
           CityStateZip:'Louisville, KY 40291',
           Phone:'502-239-8458',
           Web:'',
-          Email:'vistoryimports@yahoo.com'
+          Email:'victoryimports@yahoo.com'
         },
         {
           Name:'	AirKooled INC.',
